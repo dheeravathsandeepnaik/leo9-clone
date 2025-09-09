@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./navbar.css";
-import logo from "../assets/Leo9logo.png";
+import logo from "../assets/leo9logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
