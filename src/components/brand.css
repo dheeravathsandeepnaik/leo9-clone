@@ -1,0 +1,29 @@
+.brands {
+  padding: 60px 10%;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.brands h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.brand-logos img {
+  max-width: 120px;
+  height: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.brand-logos img:hover {
+  opacity: 1;
+}
